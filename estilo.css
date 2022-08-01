@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonte1';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+        font-family: 'fonte2';
+        src: url('_MACOSX/fontes/._idroid.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal; 
+    }
+    *{
+        font:  1em 'fonte2', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    body{
+        margin: 0px ;
+        background-color:rgb(132, 225, 173);
+        max-width: auto;
+        
+    }
+    main{
+        
+        background-color: rgb(255, 255, 255);
+        margin:auto;
+        min-width: 280px;
+        max-width: 700px;
+        padding: 20px;
+        margin-bottom: 20px; 
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        
+    }
+     main P{
+        padding:10px 0px;
+        text-align: justify;
+        text-indent: 20px;
+    }
+   
+    header{
+        background-image:linear-gradient(180deg,rgb(50, 180, 108),rgb(42, 140, 90),rgb(26, 96, 56));
+        min-width: 280px;
+        max-width: 100%;
+    }
+    
+    #titulo{
+        font:bold 3em 'fonte2', sans-serif;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.34);
+        margin: 0px 0px 30px 0px;
+        padding: 20px 0px 0px 0px;
+        
+        
+
+    }
+#principal{
+    margin: 0px;
+    font: 2em 'fonte1',sans-serif;
+    color: rgb(56, 125, 56);
+    
+}
+#subtitulo{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'fonte2', sans-serif;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+
+#menu{
+    width: 100%;
+    padding-top: 20px;
+    display: inline-block;
+    
+
+}
+ #menu > a{
+
+    display: inline-block; 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0;
+    padding: 15px 10px;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+       
+ }
+ #menu > a:hover{
+    background-color: rgb(50, 180, 108);
+    color: rgb(119, 255, 119);
+ }
+
+.sub{
+    font: 1.5em 'fonte1', sans-serif;
+    color: rgb(56, 125, 56);
+    background-image:linear-gradient(to right, rgba(50, 132, 50, 0.412),white);
+
+}
+img{
+    width: 100%;
+}
+    
+
+#bugdroid{
+    display: block;
+    margin: auto;
+    height: 235px;
+    max-width: 360px;
+    min-width: 280px;
+}
+h2{
+    font-size: 1em;
+    
+}
+#tplan{
+    font: bold 1.5em 'fonte2', sans-serif;
+    color: white;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    text-align: center;
+    background-color: rgb(63,  184, 63);
+    margin: 10px 0px ;
+    max-width: 700px;
+
+}
+main > div{
+    background-color: rgb(63,  184, 63);
+    margin: 0px -20px;
+    position: relative;
+    padding-bottom: 65%;
+}
+main > div > iframe {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    width: 96%;
+    height: 92%;
+
+}
+#aprender{
+    max-width: 700px;
+}
+
+#aprender > #lista > ul {
+    
+    padding: 10px 0px;
+    height: 165px;
+    max-width: 700px;
+    columns: 2;
+}
+#lista{
+    background-color: rgb(132, 225, 173,0.5);
+}
+footer{
+    background-color: rgb(63, 128, 63);
+    color:white;
+    min-width: 280px;
+    max-width: auto;
+}
+footer > P{
+    font-size: 20px;
+    text-align:center;
+}
