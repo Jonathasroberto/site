@@ -152,7 +152,6 @@ main > div > iframe {
     
     padding: 10px 0px;
     height: 165px;
-    max-width: 700px;
     columns: 2;
 }
 #lista{
@@ -161,7 +160,7 @@ main > div > iframe {
 footer{
     background-color: rgb(63, 128, 63);
     color:white;
-    min-width: 280px;
+    
     max-width: auto;
 }
 footer > P{
