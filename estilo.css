@@ -147,15 +147,11 @@ main > div > iframe {
     height: 92%;
 
 }
-#aprender{
-    max-width: 700px;
-}
 
 #aprender > #lista > ul {
     
     padding: 10px 0px;
     height: 165px;
-    max-width: 700px;
     columns: 2;
 }
 #lista{
