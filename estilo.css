@@ -156,6 +156,8 @@ main > div > iframe {
 }
 #lista{
     background-color: rgb(132, 225, 173,0.5);
+    border-radius: 10px ;
+    padding: 0px 10px;
 }
 footer{
     background-color: rgb(63, 128, 63);
